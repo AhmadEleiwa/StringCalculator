@@ -11,5 +11,8 @@ describe("Testing Add function", ()=>{
     })
 
 
+    test('1 + 1001 ', ()=>{
+        expect(add('1+1001')).toBe(1)
+    })
 
 })

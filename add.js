@@ -1,8 +1,11 @@
 
 const add = (str) =>{
     const token = str.split('+')
-    let [x,y] = token
-    return parseInt(x)+ parseInt(y)
+    let sum = 0
+    for(let item of token){
+        sum  += parseInt(item)
+    }
+    return sum
 }
 
 exports.add = add

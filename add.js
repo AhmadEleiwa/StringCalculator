@@ -5,3 +5,4 @@ const add = (str) =>{
     return parseInt(x)+ parseInt(y)
 }
 
+exports.add = add
